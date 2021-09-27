@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list-icon {
+  background-color: rgb(227, 227, 227);
+  font-size: 20px;
+  padding: 2px 3px;
+  border-radius: 4px;
+  margin: 0 4px;
+}
+.container {
+  width: 30%;
+  margin: 30px auto;
+  background-color: #e5e5e5;
+}
+@media screen and (max-width: 1600px) {
+  .container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+}
